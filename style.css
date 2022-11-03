@@ -1,0 +1,42 @@
+
+img, embed, object, video{
+    max-width: 100%;
+}
+
+nav a, button{
+    min-width: 48px;
+        min-height: 48px;
+}
+
+body{
+    background-color: rgb(247, 76, 195);
+            margin: auto;
+                width: 20%;
+                        padding: 2px;
+                            text-align: center
+}
+
+@media only screen and (max-device-width: 900px){
+
+.menu{ 
+    width:100%; 
+} 
+
+body{
+    background-color: rgb(255, 255, 255);
+            margin: auto;
+                width: 20%;
+                        padding: 2px;
+                            text-align: center
+}
+}
+
+@media screen and (max-width:500px){
+body{
+    background-color: rgb(247, 222, 4);
+    margin: auto;
+    width: 20%;
+            padding: 2px;
+                text-align: center
+}
+}
